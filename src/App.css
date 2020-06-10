@@ -14,15 +14,17 @@ min-width: 1424px;
 .main {
 }
 .body {
-  width: 1424px;
+  width: 1400px;
   margin: auto;
-  height: 5000px;
+  height: 4000px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .main {
   }
   .body{
-    padding: 0 100px;
+  /* width: 1224px; */
+
+    /* padding: 0 100px; */
   }
 }

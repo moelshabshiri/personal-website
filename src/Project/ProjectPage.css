@@ -1,6 +1,40 @@
-.projectPage ul{
-    display: flex;
+.slides {
+  /* display: block;
     justify-content: center;
-    /* flex-direction:row ; */
+    align-items: center; */
+
+  /* flex-direction:row ; */
+  margin-bottom: 40px;
+  width: 92%;
+  margin: auto  ;
+  /* padding-left: 50px; */
 
 }
+.slidesBody{
+}
+.slick-next:before {
+  width: 46px;
+  height: 46px;
+  content: "" !important;
+  position: fixed;
+  right: -20px;
+  background-image: url("../assets/images/next.png");
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.slick-prev:before {
+  width: 46px;
+  height: 46px;
+  content: "" !important;
+  position: fixed;
+  left: -20px;
+  z-index: 1;
+  background-image: url("../assets/images/prev.png");
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.slick-dots {
+  background-color: transparent;
+}
+*:focus {
+    outline: 0;
+    outline: none;
+  }

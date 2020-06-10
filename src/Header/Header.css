@@ -63,11 +63,11 @@ button:hover {
 
 @media (max-width: 1000px) {
   .logo {
-    margin-left: 100px;
+    /* margin-left: 100px; */
 
   }
   nav ul {
-      margin-right: 100px;
+      /* margin-right: 100px; */
   }
   nav ul li a {
   }
