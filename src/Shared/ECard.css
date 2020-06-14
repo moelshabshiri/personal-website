@@ -96,13 +96,13 @@
   }
   .ecardbody {
  
-    width: 100%;
+    width: 1900px;
     border: 1px solid yellow;
   
   
   }
   #experienceCard:hover #edetails {
-    left: 0%;
+    left: -200px;
   
   }
 
