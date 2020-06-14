@@ -9,107 +9,133 @@
 
 header {
   background: rgba(217, 0, 0, 1);
-  height: 100px;
-  margin: auto;
+  height: 65px;
   display: flex;
+  z-index: 1000000;
+  font-family: sans-serif;
+  /* position: fixed; */
   align-items: center;
   justify-content: center;
-  font-family: sans-serif;
+  width: 100%;
+  position: relative;
 }
 nav {
-  width: 75%;
-  margin: auto;
+  width: 80%;
+  /* margin: auto; */
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .logo {
-
+  width: 250px;
 }
-nav ul {
-  float: right;
+.headerUL {
+  display: flex;
+  flex-direction: row;
+  /* float: right; */
 }
 nav ul li {
-  display: inline-block;
+  /* display: flex;
+flex-direction: row; */
+  /* display: inline-block; */
 
   margin: 0 5px;
 }
-nav ul li a {
+.headerUL li a {
   color: white;
   font-size: 18px;
   text-transform: uppercase;
   padding: 7px 13px;
   border-radius: 2px;
+  /* position: relative; */
 }
-a.active,
-a:hover,
+.headerUL li a.active,
+.headerUL li a:hover,
 button:hover {
   background-color: rgb(255, 31, 31);
   transition: 0.5s;
 }
 
 .checkbtn {
-    float: right;
+  float: right;
   cursor: pointer;
   display: none;
 }
 #check {
   display: none;
 }
+#checkk {
+  /* display: none; */
+}
 .button {
   border-radius: 25px;
+  display: none;
   background-color: rgb(173, 2, 2);
 }
 
 @media (max-width: 1000px) {
   .logo {
     /* margin-left: 100px; */
-
   }
-  nav ul {
-      /* margin-right: 100px; */
+  nav {
+    /* width: 100%; */
+
+    /* margin-right: 100px; */
   }
   nav ul li a {
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   header {
     height: 160px;
-    
   }
   nav {
+    width: 80%;
   }
   .logo {
+    width: 600px;
   }
   .checkbtn {
     display: block;
   }
-  ul {
-    position: fixed;
+  .headerUL {
+    position: absolute;
     width: 100%;
-    background: rgba(217, 0, 0, 1);
+    background: rgba(217, 0, 0, 0.98);
 
-    top: 120px;
+    top: 160px;
     left: -100%;
     text-align: center;
     transition: all 0.3s;
-
+    border-top: 5px solid white;
+    flex-direction: column;
   }
-  nav ul li {
-    display: block;
-    padding: 20px;
+  .headerUL li {
+    display: flex;
+    width: 100%;
+    /* padding-bottom: 30px; */
     position: relative;
-    line-height: 80px;
+    margin: auto;
+
+    line-height: 100px;
+    border: 1px solid white;
   }
-  nav ul li a {
+  .headerUL li a {
     font-size: 40px;
+    margin: auto;
   }
-  a:hover,
-  a.active {
+  /* .headerUL li a:hover,
+  .headerUL li a.active {
     background: none;
     color: white;
-  }
+  } */
+
   #check:checked ~ ul {
     left: 0;
+    /* border: 200px solid blue; */
+  }
+  .logo :focus ~ ul {
+    /* left: -100px; */
+    border: 200px solid blue;
   }
 }

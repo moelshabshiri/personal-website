@@ -1,13 +1,15 @@
-.slides {
-  /* display: block;
-    justify-content: center;
-    align-items: center; */
+.projectPage{
+  margin-bottom: 120px;
+  /* border: 1px solid red; */
 
-  /* flex-direction:row ; */
+}
+.slides {
+
+
   margin-bottom: 40px;
+
   width: 92%;
   margin: auto  ;
-  /* padding-left: 50px; */
 
 }
 .slidesBody{
@@ -17,6 +19,7 @@
   height: 46px;
   content: "" !important;
   position: fixed;
+  top: -10px;
   right: -20px;
   background-image: url("../assets/images/next.png");
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -26,7 +29,8 @@
   height: 46px;
   content: "" !important;
   position: fixed;
-  left: -20px;
+  top: -10px;
+    left: -20px;
   z-index: 1;
   background-image: url("../assets/images/prev.png");
   background-size: cover; /* Resize the background image to cover the entire container */

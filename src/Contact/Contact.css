@@ -1,0 +1,76 @@
+.contact {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-shadow: 0.5px 0.5px 20px 0.5px rgba(68, 68, 68, 0.29);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.contactBody {
+  width: 70%;
+  margin-right: 10px;
+}
+.contactBody h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* h1{
+    text-align: center;
+    margin-bottom: 15px;
+  } */
+.contactBodyMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 10px; */
+}
+.contactBodyMain input {
+  width: 49.5%;
+}
+input,
+textarea {
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  border: 1px solid rgb(240, 238, 238);
+  font-family: sans-serif;
+  width: 100%;
+  margin-bottom: 10px;
+
+  /* margin: 8px 10px; */
+}
+.message {
+  height: 200px;
+}
+.contactInfo {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.contactInfo h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.cIdiv {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.contactInfo h2 {
+  margin-left: 10px;
+}
+.socialmedia {
+  display: flex;
+  margin-top: 100px;
+  width: 50%;
+  justify-content: space-between;
+}
+.socialmedia a {
+  /* margin-right: 10px; */
+}

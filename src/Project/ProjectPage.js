@@ -16,7 +16,16 @@ const settings = {
   initialSlide: 0,
   centerMode: true,
   centerPadding:0,
-  
+  responsive: [
+   
+    {
+      breakpoint: 720,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    }
+  ]
 };
 
 const projects=[
@@ -83,22 +92,10 @@ const projects=[
 
 const ProjectPage = () => {
   return (
-    <div className="projectPage">
+    <div className="projectPage" id="projectPage">
 
         <h1>My Projects</h1>
-        {/* <ul>
-        {projects.map(project => (
-        <ProjectCard
-          key={project.id}
-          id={project.id}
-          title={project.title}
-          type={project.type}
-          description={project.description}
-          imageURL={project.imageURL}
-          link={project.link}
-        />
-      ))}
-      </ul> */}
+      
  
       <Slider  className="slides" {...settings}>
         
