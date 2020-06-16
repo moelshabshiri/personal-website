@@ -9,13 +9,16 @@ import "slick-carousel/slick/slick-theme.css";
 
 const settings = {
   dots: true,
-  infinite: true,
+  infinite: false,
   speed: 350,
   slidesToShow: 5,
   slidesToScroll: 1,
   initialSlide: 0,
-  centerMode: true,
-  centerPadding: 0
+  // centerMode: true,
+  centerPadding: 0,
+  arrows:false,
+  swipeToSlide:true,
+
 };
 
 const skills = [

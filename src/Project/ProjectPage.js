@@ -9,19 +9,25 @@ import "slick-carousel/slick/slick-theme.css";
 
 const settings = {
   dots: true,
-  infinite: true,
+  infinite: false ,
   speed: 350,
   slidesToShow: 3,
   slidesToScroll: 1,
+  swipeToSlide:true,
+  // autoplay: true,
   initialSlide: 0,
-  centerMode: true,
-  centerPadding:0,
+  autoplaySpeed:200,
+  rows:2,
+  // arrows:false,
+  
+  // centerMode: true,
+  // centerPadding:0,
   responsive: [
    
     {
       breakpoint: 720,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1
       }
     }
@@ -79,6 +85,15 @@ const projects=[
       },
       {
         id: 'p6',
+        type: 'App',
+        title: 'Disk Analyzer Backenddd',
+        description:
+          'Wrote the backend code of a Linux Disk Analyzer using C++',
+        imageURL: 'DiskAnalyzer.png',
+        link:'https://github.com/moelshabshiri/LinuxDiskAnalyzer'
+      },
+      {
+        id: 'p7',
         type: 'App',
         title: 'Disk Analyzer Backenddd',
         description:

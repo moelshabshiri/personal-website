@@ -1,5 +1,7 @@
 .education{
   margin-bottom: 150px;
+  background-color: rgb(247, 247, 247);
+
 
 }
 .educationBody{
@@ -8,5 +10,12 @@
      /* width: 1200px; */
     overflow: hidden;
   
+  
+  }
+  @media (max-width: 720px) {
+    .educationBody{
+  
+      box-shadow: none;
+    }
   
   }

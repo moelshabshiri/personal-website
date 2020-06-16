@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   return (
     <header className="header"  tabindex="1" >
       <nav className="nb"    >
         <img 
-        tabindex="1"
           className="logo"
           src={require("../assets/images/logo.png")}
           alt="Cover Photo"
         />
         <input type="checkbox" id="check" />
         <label for="check" className="checkbtn">
-          <FontAwesomeIcon color="white" size="5x" icon={faBars} />
+          <FontAwesomeIcon id="checkbtn1" color="white" size="5x" icon={faBars} />
+          {/* <FontAwesomeIcon id="checkbtn2"color="white" size="5x" icon={faTimes} /> */}
         </label>
 
         <ul  className="headerUL">
