@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6bd5d426ddf74d41d5cc0567fecb3549",
+    "revision": "924d6446add466c9cb68d7eea46f2608",
     "url": "//moelshabshiri.github.io/personal-website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//moelshabshiri.github.io/personal-website/static/css/2.036bc536.chunk.css"
   },
   {
-    "revision": "879af7ff2e420778751f",
-    "url": "//moelshabshiri.github.io/personal-website/static/css/main.6d20944c.chunk.css"
+    "revision": "cb18eedb917660623d21",
+    "url": "//moelshabshiri.github.io/personal-website/static/css/main.9a68a5f4.chunk.css"
   },
   {
     "revision": "ce972b23889e97dcc5a1",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//moelshabshiri.github.io/personal-website/static/js/2.02a38bdb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "879af7ff2e420778751f",
+    "revision": "cb18eedb917660623d21",
     "url": "//moelshabshiri.github.io/personal-website/static/js/main.b54d2290.chunk.js"
   },
   {
