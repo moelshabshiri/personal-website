@@ -6,35 +6,38 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+const ProjectPage = () => {
 
 const settings = {
   dots: true,
   infinite: false ,
   speed: 350,
-  slidesToShow: 3,
+  slidesToShow: 3.15,
   slidesToScroll: 1,
   swipeToSlide:true,
   // autoplay: true,
   initialSlide: 0,
   autoplaySpeed:200,
   rows:2,
+  arrows:false,
   // arrows:false,
   
   // centerMode: true,
-  // centerPadding:0,
+  // centerPadding:'3%',
+
   responsive: [
    
     {
       breakpoint: 720,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 1.1,
         slidesToScroll: 1
       }
     }
   ]
 };
 
-const projects=[
+const projectsA=[
     {
         id: 'p1',
         type: 'Software',
@@ -105,12 +108,45 @@ const projects=[
 ]
 
 
-const ProjectPage = () => {
+
+const [projects, setProjects] = useState(projectsA);
+
+const filterHandler = event => {
+  const type = event.target.value;
+  if (type == "All") {
+    setProjects(projectsA);
+  } else {
+    const filteredProjects = projectsA.filter(item => item.type === type);
+    setProjects(filteredProjects);
+  }
+  // console.log(skills);
+  // console.log(why);
+};
+
+
   return (
     <div className="projectPage" id="projectPage">
 
-        <h1>My Projects</h1>
-      
+        <h1 className="pageTitle">Projects</h1>
+        <div className="filterButtons">
+        <button value="All" onClick={filterHandler}>
+          All
+        </button>
+        <button value="Website" onClick={filterHandler}>
+        Website
+        </button>
+
+        <button value="App" onClick={filterHandler}>
+        App
+        </button>
+        <button value="Game" onClick={filterHandler}>
+        Game
+        </button>
+        <button value="Software" onClick={filterHandler}>
+        Software
+        </button>
+     
+      </div> 
  
       <Slider  className="slides" {...settings}>
         

@@ -8,9 +8,12 @@
     rgba(237, 237, 237, 1) 100%
   );
   min-width: 1424px;
+  padding-bottom: 10px;
 }
 
 * {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   box-sizing: border-box;
 }
 .main {
@@ -18,8 +21,8 @@
 .body {
   width: 1200px;
   margin: auto;
-  height: 10000px;
-  /* padding-top: 65px; */
+  /* padding-top: 65px;  */
+
 }
 
 @media (max-width: 720px) {
@@ -28,8 +31,5 @@
   .body {
     width: 100%;
 
-    /* width: 1224px; */
-
-    /* padding: 0 100px; */
   }
 }

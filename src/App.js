@@ -13,28 +13,28 @@ function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState();
 
-  useEffect(() => {
-    const sendRequest = async () => {
-      setIsLoading(true);
-      try {
-        const response = await fetch("http://localhost:5000/users/");
+  // useEffect(() => {
+  //   const sendRequest = async () => {
+  //     setIsLoading(true);
+  //     try {
+  //       const response = await fetch("http://localhost:5000/users/");
 
-        const responseData = await response.json();
+  //       const responseData = await response.json();
 
-        if (!response.ok) {
-          throw new Error(responseData.message);
-        }
+  //       if (!response.ok) {
+  //         throw new Error(responseData.message);
+  //       }
 
-        setusers(responseData);
-      } catch (err) {
-        setError(err.message);
-      }
-      setIsLoading(false);
-    };
-    sendRequest();
-  }, []);
+  //       setusers(responseData);
+  //     } catch (err) {
+  //       setError(err.message);
+  //     }
+  //     setIsLoading(false);
+  //   };
+  //   sendRequest();
+  // }, []);
 
-  console.log(users[0]);
+  // console.log(users[0]);
 
   return (
     <div className="app">

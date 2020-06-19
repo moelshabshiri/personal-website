@@ -16,3 +16,13 @@
   margin: 30px auto;
   font-size: smaller;
 }
+
+@media (max-width: 720px) {
+  .sCard {
+  font-size:large;
+
+    height: 200px;
+    width: 220px;
+  }
+
+}

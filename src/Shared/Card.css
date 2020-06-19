@@ -11,7 +11,7 @@
   overflow: hidden;
   font-family: sans-serif;
   background-color: white;
-margin: 30px auto;
+  margin: 30px auto;
 }
 
 .cardimg__img {
@@ -20,54 +20,48 @@ margin: 30px auto;
   position: relative;
   margin: auto;
 }
-.cardimg{
-  /* width: 100%; */
+.cardimg {
   height: 100%;
-
 }
 .cardbody a {
   color: white;
-  padding: 8px 30px;
-  border-radius: 25px;
-  background-color: rgb(173, 2, 2);
+  padding: 10px 40px;
+  /* padding: 30px 80px; */
+  margin-top: 40px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 5px -7px rgba(0, 0, 0, 0.29);
+
+  background: rgb(121,99,255);
+  background: linear-gradient(288deg, rgba(121,99,255,1) 0%, rgba(18,31,170,1) 100%);
 }
 .details {
   height: 100%;
   width: 100%;
-  top:70%;
+  top: 70%;
   position: absolute;
   transition: 0.5s;
-  background-color: rgb(252, 252, 252);
-/* padding: 20px; */
-
-
+  background-color: rgb(251, 251, 251);
 }
 .title {
   display: flex;
-  /* padding: 20px; */
-  /* align-items: center; */
   flex-direction: column;
   justify-content: space-between;
-  /* justify-content: center; */
+  align-items: center;
   height: 30%;
-  /* background-color:rgb(255, 255, 255); */
-  /* font-size: large; */
 }
-.title h1{
-margin-top: 10px;
+.title__text {
+  /* margin-top: 30px; */
+  margin: auto;
 }
 
-.title img{
+.title img {
   height: 30px;
   width: 30px;
-  margin: 10px auto;
-
+  margin-bottom: 20px;
   /* position: absolute; */
 }
 
 .cardbody {
-    /* background-color:rgb(255, 255, 255); */
-
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -77,35 +71,46 @@ margin-top: 10px;
 .cardbody h6 {
   margin-bottom: 20px;
 }
-@media (min-width: 720px) { 
-
-#projectCard:hover #details {
-  top: 0px;
-  transition: 0.5s;
+@media (min-width: 720px) {
+  #projectCard:hover #details {
+    top: 0px;
+    transition: 0.5s;
+  }
+  #projectCard:hover .title img {
+    display: none;
+    transition: 0.5s;
+  }
 }
- #projectCard:hover .title img {
-  display: none;
-  transition: 0.5s;
-}
-}
-
 
 @media (max-width: 720px) {
   #details:hover {
     top: 0px;
     transition: 0.5s;
   }
+  #details:hover .title img {
+    display: none;
+    transition: 0.5s;
+  }
 
-
- #details{
-
- }
+  #details {
+  }
   .projectCard {
     height: 1250px;
-    width: 1270px;
-    font-size: 25px;
-}
-.cardbody{
-  font-size: larger;
-}
+    width: 1220px;
+    font-size: 35px;
+  }
+  .cardbody {
+    font-size:60px;
+    font-weight: lighter;
+  }
+  .title img {
+    height: 60px;
+    width: 60px;
+    margin: 60px;
+  }
+  .cardbody a {
+    padding: 30px 80px;
+    margin-top: 80px;
+
+  }
 }

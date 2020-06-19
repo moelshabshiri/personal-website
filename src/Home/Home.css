@@ -1,13 +1,14 @@
-* {
-  box-sizing: border-box;
-}
+
 .homePage {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  /* margin-top: -65px; */
+
   /* padding-top: 65px; */
   /* position: relative; */
 }
 .cover {
   width: 100%;
+  /* position: relative; */
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 
@@ -28,6 +29,7 @@
   margin-top: -150px;
   text-align: center;
 }
+  
 .info {
   text-align: center;
   border-bottom-left-radius: 20px;

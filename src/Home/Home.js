@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 const Home = () => {
   return (
-    <div className="homePage" id="homePage">
+    <div className="homePage jumptarget" id="homePage">
       <img
         className="cover"
         src={require("../assets/images/home-cover.png")}

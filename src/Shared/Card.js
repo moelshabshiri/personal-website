@@ -13,15 +13,15 @@ const Card = props => {
       </div>
       <div className="details" id="details">
         <div className="title">
-          <div>
+          <div className="title__text">
           <h1>{props.title}</h1>
           <h3>{props.type}</h3>
           </div>
           <img src={require(`../assets/images/bn.png`)} alt="Cover Photo" />
         </div>
         <div className="cardbody">
-          <h6>{props.description}</h6>
-          <a href={props.link}>Explore</a>
+          <p>{props.description}</p>
+          <a href={props.link}  target="_blank">Explore</a>
         </div>
       </div>
     </div>

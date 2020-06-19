@@ -1,18 +1,24 @@
 .education{
-  margin-bottom: 150px;
-  background-color: rgb(247, 247, 247);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
 
 
 }
 .educationBody{
     box-shadow: 10px 9px 30px -1px rgba(0, 0, 0, 0.29);
      border-radius: 10px;
-     /* width: 1200px; */
     overflow: hidden;
   
   
   }
   @media (max-width: 720px) {
+    .education{
+  
+      background-color: rgb(247, 247, 247);
+    }
     .educationBody{
   
       box-shadow: none;

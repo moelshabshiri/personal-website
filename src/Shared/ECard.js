@@ -8,44 +8,28 @@ const ExperienceCard = props => {
       <div className="ecardimg">
         <img
           className="ecardimg__img"
-          src={require("../assets/images/riscV.PNG")}
+          src={require(`../assets/images/${props.imageURL}`)}
           alt="Cover Photo"
         />
       </div>
-
       <div className="edetails" id="edetails">
         <div className="etitleMain">
           <div className="etitle">
-            <h1>VISA</h1>
-            <h3>Brand Ambassador</h3>
+            <h1>{props.title}</h1>
+            <h3>{props.job}</h3>
+            <h3>{props.year}</h3>
           </div>
-          {/* <div className="etitle__slide"> */}
-
           <img
             className="etitle__slide"
             src={require("../assets/images/next.png")}
             alt="Cover Photo"
           />
-          {/* </div> */}
         </div>
         <div className="ecardbody">
-          <h5>
-            Assisting with VIP guests’ arrivals and departures, Greeting and
-            registering guests on arrival to program or match day at the Visa
-            hospitality desk Escorting guests to vehicles and to the stadium and
-            other destinations, Match day guidance and guiding guests safely and
-            efficiently into and out of stadium, Assisting with ticket
-            distribution, Clear communication to the guests on the transport
-            vehicles
-          </h5>
-          {/* <a href="#forget">Explore</a> */}
+          <h3>{props.description}</h3>
         </div>
       </div>
     </div>
-
-    // <div className="sq">
-
-    // </div>
   );
 };
 
