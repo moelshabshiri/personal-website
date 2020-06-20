@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "//moelshabshiri.github.io/personal-website/static/css/main.bcca8106.chunk.css",
-    "main.js": "//moelshabshiri.github.io/personal-website/static/js/main.93eab862.chunk.js",
-    "main.js.map": "//moelshabshiri.github.io/personal-website/static/js/main.93eab862.chunk.js.map",
+    "main.js": "//moelshabshiri.github.io/personal-website/static/js/main.b8ec191c.chunk.js",
+    "main.js.map": "//moelshabshiri.github.io/personal-website/static/js/main.b8ec191c.chunk.js.map",
     "runtime-main.js": "//moelshabshiri.github.io/personal-website/static/js/runtime-main.135d9ec9.js",
     "runtime-main.js.map": "//moelshabshiri.github.io/personal-website/static/js/runtime-main.135d9ec9.js.map",
     "static/css/2.036bc536.chunk.css": "//moelshabshiri.github.io/personal-website/static/css/2.036bc536.chunk.css",
-    "static/js/2.02a38bdb.chunk.js": "//moelshabshiri.github.io/personal-website/static/js/2.02a38bdb.chunk.js",
-    "static/js/2.02a38bdb.chunk.js.map": "//moelshabshiri.github.io/personal-website/static/js/2.02a38bdb.chunk.js.map",
+    "static/js/2.f9dbcfff.chunk.js": "//moelshabshiri.github.io/personal-website/static/js/2.f9dbcfff.chunk.js",
+    "static/js/2.f9dbcfff.chunk.js.map": "//moelshabshiri.github.io/personal-website/static/js/2.f9dbcfff.chunk.js.map",
     "index.html": "//moelshabshiri.github.io/personal-website/index.html",
-    "precache-manifest.4b39bd597d62e43ef3447e088870ed45.js": "//moelshabshiri.github.io/personal-website/precache-manifest.4b39bd597d62e43ef3447e088870ed45.js",
+    "precache-manifest.09992bd97ac53589a259179423f7cf55.js": "//moelshabshiri.github.io/personal-website/precache-manifest.09992bd97ac53589a259179423f7cf55.js",
     "service-worker.js": "//moelshabshiri.github.io/personal-website/service-worker.js",
     "static/css/2.036bc536.chunk.css.map": "//moelshabshiri.github.io/personal-website/static/css/2.036bc536.chunk.css.map",
     "static/css/main.bcca8106.chunk.css.map": "//moelshabshiri.github.io/personal-website/static/css/main.bcca8106.chunk.css.map",
-    "static/js/2.02a38bdb.chunk.js.LICENSE.txt": "//moelshabshiri.github.io/personal-website/static/js/2.02a38bdb.chunk.js.LICENSE.txt",
+    "static/js/2.f9dbcfff.chunk.js.LICENSE.txt": "//moelshabshiri.github.io/personal-website/static/js/2.f9dbcfff.chunk.js.LICENSE.txt",
     "static/media/AUC.jpg": "//moelshabshiri.github.io/personal-website/static/media/AUC.0e46f24d.jpg",
     "static/media/Aramco.png": "//moelshabshiri.github.io/personal-website/static/media/Aramco.cf4b1436.png",
     "static/media/DHS.png": "//moelshabshiri.github.io/personal-website/static/media/DHS.390380a8.png",
@@ -23,6 +23,7 @@
     "static/media/Pacman.PNG": "//moelshabshiri.github.io/personal-website/static/media/Pacman.9a2ea0ca.PNG",
     "static/media/VISA.png": "//moelshabshiri.github.io/personal-website/static/media/VISA.5e51bcb1.png",
     "static/media/avatar.jpg": "//moelshabshiri.github.io/personal-website/static/media/avatar.029294a1.jpg",
+    "static/media/cover.png": "//moelshabshiri.github.io/personal-website/static/media/cover.f8a5f97c.png",
     "static/media/facebook.jpg": "//moelshabshiri.github.io/personal-website/static/media/facebook.97097f00.jpg",
     "static/media/home-cover.png": "//moelshabshiri.github.io/personal-website/static/media/home-cover.dd5fc1db.png",
     "static/media/klickit.png": "//moelshabshiri.github.io/personal-website/static/media/klickit.af3f8e69.png",
@@ -34,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.135d9ec9.js",
     "static/css/2.036bc536.chunk.css",
-    "static/js/2.02a38bdb.chunk.js",
+    "static/js/2.f9dbcfff.chunk.js",
     "static/css/main.bcca8106.chunk.css",
-    "static/js/main.93eab862.chunk.js"
+    "static/js/main.b8ec191c.chunk.js"
   ]
 }
