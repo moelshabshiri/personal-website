@@ -14,9 +14,7 @@ const Education = props => {
         description:
           'American Diploma',
         imageURL: 'education/DHS.png',
-        
       },
-      
       {
         id: 'e2',
         year: '2017-2021',
@@ -25,12 +23,7 @@ const Education = props => {
           'Computer Science',
         imageURL: 'education/AUC.jpg',
       },
-     
-  
 ]
-
-
-
 
   return (
     <div className="education" id="educationPage">

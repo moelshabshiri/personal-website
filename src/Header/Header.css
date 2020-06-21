@@ -18,10 +18,7 @@ header {
   width: 100%;
   position: relative;
   font-weight: 600;
-  /* margin-bottom: 65px; */
-  
   height: 65px;
-
 }
 nav {
   
@@ -38,18 +35,14 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* float: right; */
 }
-.headerLi {
-  /* margin: 0 5px; */
-}
+
 .headerLi  {
   color: white;
   font-size: 18px;
   text-transform: uppercase;
   padding: 7px 13px;
   border-radius: 2px;
-  /* position: relative; */
 }
 
 .headerUL a:active,
@@ -106,32 +99,21 @@ nav {
   }
   .headerUL a {
     display: flex;
-    /* position: relative; */
     margin: auto;
     line-height: 100px;
     width: 100%;
   }
   .headerLi  {
     font-size: 40px;
-    /* margin: auto; */
     width: 100%; 
-
-    /* background-color: brown; */
-    /* width: 97%; */
   }
 
-  /* .checkbtn:hover{
-    display: none;
-   }
-    */
     .headerUL:active {
     left: 0;
   }
    .checkbtn:hover ~ .headerUL {
     left: 0px;
   } 
-  /* #check:checked ~ ul {
-    left: 0;
-  } */
+
 
 }

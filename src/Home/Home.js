@@ -7,7 +7,7 @@ const Home = () => {
     <div className="homePage jumptarget" id="homePage">
       <img
         className="cover"
-        src={require("../assets/images/home-cover.png")}
+        src={require("../assets/images/cover.png")}
         alt="Cover Photo"
       />
       <div className="home">

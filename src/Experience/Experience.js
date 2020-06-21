@@ -5,8 +5,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import ECard from "../Shared/ECard";
 const Experience = props => {
   const experience = [
-
-
     {
       id: "ex1",
       year: "2019",
@@ -32,6 +30,14 @@ const Experience = props => {
       title: "KlickIt",
       description: "Developed web applications using web technologies, Worked with a team in developing the frontend of the website https://klickit.co/,	Collaborated with a team in developing online payment platforms for schools and companies using Angular using ASP.net MVC, Angular 8, SQL, and Git,	Built an online ticketing platform using Angular using ASP.net MVC, Angular 8, SQL, and Git",
       imageURL: "experience/klickit.png"
+    },
+    {
+      id: "ex4",
+      year: "2019",
+      job: "Historic Maps Processor",
+      title: "American University in Cairo",
+      description: "Read and sort maps according to the choreographic location, Coordinate the digitization of print maps, Rename digital files, Fill out the created metadata form, Coordinate the conservation of the damaged print maps",
+      imageURL: 'education/AUC.jpg'
     }
   ];
 

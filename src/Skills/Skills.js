@@ -7,6 +7,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { send } from "emailjs-com";
+// import { select }  from 'react-bootstrap-select';
+
 const Skills = () => {
   const settings = {
     dots: true,
@@ -131,37 +133,21 @@ const Skills = () => {
       const filteredSkills = skillsA.filter(item => item.type === type);
       setSkills(filteredSkills);
     }
-    // console.log(skills);
-    // console.log(why);
   };
 
   return (
     <div className="projectPage" id="skillsPage">
       <h1 className="pageTitle">Skills and Languages</h1>
-      <div className="filterButtons">
-        <button value="All" onClick={filterHandler}>
-          All
-        </button>
-        <button value="Programming" onClick={filterHandler}>
-          Programming
-        </button>
+      <select onChange={filterHandler} class="selectPicker">
+        <option value="All">All</option>
+        <option value="Programming">Programming</option>
+        <option value="Database">Databases</option>
+        <option value="Operating System">Operating Systems</option>
+        <option value="Version Control System">Version Control Systems</option>
+        <option value="Software">Softwares</option>
+        <option value="Language">Languages</option>
+      </select>
 
-        <button value="Database" onClick={filterHandler}>
-          Databases
-        </button>
-        <button value="Operating System" onClick={filterHandler}>
-          Operating Systems
-        </button>
-        <button value="Version Control System" onClick={filterHandler}>
-          Version Control Systems
-        </button>
-        <button value="Software" onClick={filterHandler}>
-          Softwares
-        </button>
-        <button value="Language" onClick={filterHandler}>
-          Languages
-        </button>
-      </div>
       <Slider className="slides" {...settings}>
         {skills.map(skill => (
           <div className="slidesBody">

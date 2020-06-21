@@ -2,7 +2,6 @@
   height: 200px;
   width: 1200px;
   display: flex;
-  /* justify-content: center; */
   flex-direction: column;
   position: relative;
   overflow: hidden;
@@ -15,17 +14,10 @@
   display: flex;
   width: 600px;
   height: 100%;
-  /* border: 1px solid brown; */
-  /* margin: auto 0; */
-
 }
 .ecardimg__img {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
   max-width: 300px;
   max-height: 100%;
-  /* border: 1px solid black; */
   margin: auto;
 
 }
