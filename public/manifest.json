@@ -1,9 +1,9 @@
 {
   "short_name": "Mohamed Elsayed",
-  "name": "Create React App Sample",
+  "name": "Mohamed Elsayed",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "codeicon.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
