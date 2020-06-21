@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "febf52466c86afe4de87a276a85fe30d",
+    "revision": "5362a5772bc5eefb574717112d6cb546",
     "url": "//moelshabshiri.github.io/personal-website/index.html"
   },
   {
-    "revision": "23beed5ab6d2ad9d2bda",
+    "revision": "b015f93c0d2ccc2e7cb2",
     "url": "//moelshabshiri.github.io/personal-website/static/css/2.036bc536.chunk.css"
   },
   {
-    "revision": "251945b9dbfd5bba4c1a",
+    "revision": "33fe0d14135825e3f50c",
     "url": "//moelshabshiri.github.io/personal-website/static/css/main.bcca8106.chunk.css"
   },
   {
-    "revision": "23beed5ab6d2ad9d2bda",
-    "url": "//moelshabshiri.github.io/personal-website/static/js/2.f9dbcfff.chunk.js"
+    "revision": "b015f93c0d2ccc2e7cb2",
+    "url": "//moelshabshiri.github.io/personal-website/static/js/2.db98ed1d.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "//moelshabshiri.github.io/personal-website/static/js/2.f9dbcfff.chunk.js.LICENSE.txt"
+    "url": "//moelshabshiri.github.io/personal-website/static/js/2.db98ed1d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "251945b9dbfd5bba4c1a",
-    "url": "//moelshabshiri.github.io/personal-website/static/js/main.4aeaa90a.chunk.js"
+    "revision": "33fe0d14135825e3f50c",
+    "url": "//moelshabshiri.github.io/personal-website/static/js/main.e7d499d0.chunk.js"
   },
   {
     "revision": "432803cd654199085118",
@@ -68,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//moelshabshiri.github.io/personal-website/static/media/cover.f8a5f97c.png"
   },
   {
+    "revision": "8ea039af9c077b6bbd11ec58c12faa3a",
+    "url": "//moelshabshiri.github.io/personal-website/static/media/covid.8ea039af.png"
+  },
+  {
     "revision": "97097f004c79a61fecefea45578f7dde",
     "url": "//moelshabshiri.github.io/personal-website/static/media/facebook.97097f00.jpg"
   },
@@ -86,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "376f16be4febf4ca882e75b310432321",
     "url": "//moelshabshiri.github.io/personal-website/static/media/myWeek.376f16be.jpeg"
+  },
+  {
+    "revision": "382e4de678c2442bc63e08452040a8e0",
+    "url": "//moelshabshiri.github.io/personal-website/static/media/pthreads.382e4de6.png"
   },
   {
     "revision": "8b282ee86e7ce8845d91b107fec63cde",
