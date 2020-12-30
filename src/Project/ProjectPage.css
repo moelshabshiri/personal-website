@@ -7,13 +7,12 @@
 }
 
 .pageTitle{
-  font-size: 50px;
+  font-size: 30px;
   padding: 20px;
 }
 
 .slides {
   margin-bottom: 40px;
-
   width: 96%;  
   margin: auto;
 }
@@ -49,8 +48,6 @@
   border-radius: 2px;
   text-align: center;
   text-align-last: center;
-
-
 }
  option{
   background: rgb(81, 58, 231);
@@ -59,13 +56,13 @@
 
 @media (max-width: 720px) {
   .pageTitle{
-    font-size: 100px;
+    font-size: xx-large;
   }
   .selectPicker{
-    font-size: 35px;
+    font-size: medium;
   }
    option{
-    font-size: 10px;
+    font-size: medium;
   }
 
 }

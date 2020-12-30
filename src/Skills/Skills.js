@@ -21,7 +21,18 @@ const Skills = () => {
     // centerMode: true,
     centerPadding: 0,
     arrows: false,
-    swipeToSlide: true
+    swipeToSlide: true,
+    responsive: [
+      {
+        breakpoint: 720,
+        settings: {
+          slidesToShow: 3.2,
+          dots: false,
+
+        },
+      }
+    ]
+    
   };
 
   const skillsA = [

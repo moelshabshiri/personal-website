@@ -36,26 +36,53 @@ const ProjectPage = () => {
   };
 
   const projectsA = [
+
     {
       id: "p1",
+      type: "Game",
+      title: "Surviving Sinai",
+      description:
+        "Survining Sinai is a surviving game about a lost foreigner who needs to find a way to the airport using help from the bedoins of Sinai. The game was developed using Unity Engine",
+      imageURL: "SS.png",
+
+      link: "https://drive.google.com/drive/folders/14VaHfpfxtIckvU7ksnJ3ehzlbCnAUMeh?usp=sharing"
+    },
+
+
+    {
+      id: "p10",
       type: "Software",
       title: "riscVprocessor",
       description:
-        "Developed a pipelined datapath block diagram and Verilog description supporting the entirety of RV32I instructions.w",
+        "Developed a pipelined datapath block diagram and Verilog description supporting the entirety of RV32I instructions",
       imageURL: "riscV.PNG",
 
       link: "https://github.com/moelshabshiri/riscVprocessor"
     },
-
+    
     {
       id: "p2",
-      type: "App",
-      title: "myWeek",
+      type: "Website",
+      title: "Z-Connect",
       description:
-        "My Week is an app built using React Native and the Expo CLI that lets the user make a weekly schedule and create tasks for each day of the week.",
-      imageURL: "myWeek.jpeg",
-      link: "https://github.com/moelshabshiri/GoalApp"
+        "Developed the website of the company https://zconnectegypt.web.app. The main purpose of this website is to create a community of high school and college students in Cairo who are interested in high school extracurricular activities or college clubs.",
+      imageURL: "experience/Z Connects.png",
+
+      link: "https://zconnectegypt.web.app"
     },
+
+    {
+      id: "p11",
+      type: "Software",
+      title: "Multi-layer Fully Connected Neural Network Classifier",
+      description:
+        `Multi-layer fully connected Neural Network (NN) Classifier of 5 classes of flower images. The classifier reached a top accuracy of 45.6%. The classifier was built using Python from scratch without the use of any frameworks such as Tensorflow or Keras.`,
+      imageURL: "NN.png",
+
+      link: "https://github.com/moelshabshiri/Multi-layer-fully-connected-Neural-Network-NN-Classifier"
+    },
+
+
     {
       id: "p3",
       type: "Website",
@@ -65,8 +92,20 @@ const ProjectPage = () => {
       imageURL: "KlickIt.PNG",
       link: "https://klickit.co"
     },
+
+
     {
       id: "p4",
+      type: "App",
+      title: "myWeek",
+      description:
+        "My Week is an app built using React Native and the Expo CLI that lets the user make a weekly schedule and create tasks for each day of the week.",
+      imageURL: "myWeek.jpeg",
+      link: "https://github.com/moelshabshiri/GoalApp"
+    },
+
+    {
+      id: "p5",
       type: "Game",
       title: "Pacman",
       description: "Developing of Pacman using SFML libraries of C++.",
@@ -75,7 +114,7 @@ const ProjectPage = () => {
     },
 
     {
-      id: "p5",
+      id: "p6",
       type: "App",
       title: "GuessTheNumber",
       description:
@@ -84,7 +123,7 @@ const ProjectPage = () => {
       link: "https://github.com/moelshabshiri/GuessNumberApp"
     },
     {
-      id: "p6",
+      id: "p7",
       type: "Software",
       title: "Disk Analyzer Backendd",
       description: "Wrote the backend code of a Linux Disk Analyzer using C++",
@@ -92,7 +131,7 @@ const ProjectPage = () => {
       link: "https://github.com/moelshabshiri/LinuxDiskAnalyzer"
     },
     {
-      id: "p7",
+      id: "p8",
       type: "Software",
       title: "Synchronization Problem",
       description: "Unisex bathroom problem solved using pthreads, mutex locks and condition variables. Written in C",
@@ -100,7 +139,7 @@ const ProjectPage = () => {
       link: "https://https://github.com/moelshabshiri/unisex-pthreads"
     },
     {
-      id: "p8",
+      id: "p9",
       type: "Website",
       title: "COVID19-QA",
       description: "This is a website that includes frequently asked questions about COVID-19 and their answers. It was built using React for frontend, NodeJS and ExpressJS for the backend, and MongoDB for the database.",

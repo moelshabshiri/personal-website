@@ -17,10 +17,10 @@ const Education = props => {
       },
       {
         id: 'e2',
-        year: '2017-2021',
+        year: '2017-2022',
         title: 'American University in Cairo',
         description:
-          'Computer Science',
+          'Computer Engineering',
         imageURL: 'education/AUC.jpg',
       },
 ]

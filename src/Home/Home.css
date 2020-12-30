@@ -1,17 +1,8 @@
-
 .homePage {
   margin-bottom: 50px;
-  /* margin-top: -65px; */
-
-  /* padding-top: 65px; */
-  /* position: relative; */
 }
 .cover {
   width: 100%;
-  /* position: relative; */
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-
   align-items: center;
   justify-content: center;
 }
@@ -23,13 +14,12 @@
 .avatar {
   height: 300px;
   width: 300px;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 0.5px 0.5px 20px 0.5px rgba(68, 68, 68, 0.29);
-  /* z-index: 1; */
   margin-top: -150px;
   text-align: center;
 }
-  
+
 .info {
   text-align: center;
   border-bottom-left-radius: 20px;
@@ -38,7 +28,7 @@
   height: 300px;
   margin-top: -170px;
   z-index: 100000;
-flex-direction: column;
+  flex-direction: column;
   text-align: center;
   display: flex;
   align-items: center;
@@ -54,20 +44,22 @@ flex-direction: column;
   padding-top: 150px;
 }
 @media (max-width: 720px) {
+  .avatar {
+    height: 50%;
+    width: 50%;
+    margin-top: -25%;
+  }
+
 
   .homePage {
-    /* padding-top: 160px; */
     font-size: 40px;
   }
-  .info{
-  height: 600px;
-  margin-top: -270px;
+  .info {
+    height: 450px;
+    margin-top: -270px;
+    font-size: medium;
+  }
 
-  }
-  .avatar {
-    height: 400px;
-    width: 400px;
-  }
   .info h1 {
     padding-top: 230px;
   }

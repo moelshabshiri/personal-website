@@ -16,7 +16,7 @@ const Header = () => {
           <FontAwesomeIcon
             id="checkbtn1"
             color="white"
-            size="5x"
+            size="2x"
             icon={faBars}
           />
         </label>
@@ -25,7 +25,6 @@ const Header = () => {
           <a id="homePage" href="#homePage">
             <li className="headerLi">Home</li>
           </a>
-
           <a href="#projectPage">
             <li className="headerLi">Projects </li>
           </a>

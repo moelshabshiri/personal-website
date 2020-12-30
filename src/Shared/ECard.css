@@ -19,7 +19,6 @@
   max-width: 300px;
   max-height: 100%;
   margin: auto;
-
 }
 
 .edetails {
@@ -36,7 +35,9 @@
   display: flex;
   justify-content: space-between;
   width: 33.33333333333%;
+
   background-color: rgb(253, 253, 253);
+  
 }
 .etitle {
   display: flex;
@@ -61,6 +62,7 @@
   text-align: start;
   width: 67.666666666666666667%;
   background-color: rgb(251, 251, 251);
+  font-size: small;
 }
 .ecardbody a {
   color: white;
@@ -84,42 +86,65 @@
 @media (max-width: 720px) {
   .experienceCard {
     display: flex;
-    flex-direction: row;
-    font-size: 33px;
-    height: 600px;
-    width: 1400px;
-    font-weight: lighter;
+    flex-direction: column;
+    font-size: smaller;
+    height: 500px;
+    width: 98%;
+    justify-content: space-between;
+    font-weight: 100;
+    text-align: center;
+
+  position: relative;
+  margin: auto;
+  margin-bottom: 20px;
+
   }
+
   .etitleMain {
-    height: 50%;
-  }
-  .etitleMain {
-    width: 50%;
-    margin: 0 700px;
-    background-color: rgb(255, 255, 255);
+    height: 30%;
+    width: 100%;
+    /* margin: auto; */
+    background-color: rgb(253, 253, 253);
+    justify-content: center;
   }
   .etitle__slide {
     justify-content: center;
     display: none;
   }
-  #edetails {
+
+  .edetails {
+    height: 80%;
+    width: 100%;
     left: 0;
+    position: relative;
     flex-direction: column;
+    display: flex;
   }
+
+
   .ecardimg__img {
-    max-height: 100%;
-    max-width: 400px;
+    max-height: 60%;
+    max-width: 50%;
     margin: auto;
   }
   .ecardbody {
     width: 100%;
-    height: 50%;
+    height: 70%;
     left: 0;
-    padding: 50px;
+    padding: 20px;
+    margin: auto;
+
   }
-  .ecardimg{
+  .etitle{
+    width: 100%;
+    margin: auto;
+    height: 100%;
+
+  }
+  .ecardimg {
     display: flex;
-    width: 600px;
-    height: 50%;
+    width: 100%;
+    margin: auto;
+    height: 20%;
   }
 }

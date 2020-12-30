@@ -19,10 +19,11 @@
 
 @media (max-width: 720px) {
   .sCard {
-  font-size:large;
+  font-size:xx-small;
+  margin: 10px auto;
 
-    height: 200px;
-    width: 220px;
+    height: 70px;
+    width: 100px;
   }
 
 }

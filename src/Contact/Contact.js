@@ -45,8 +45,8 @@ const Contact = props => {
 
   return (
     <div className="contact" id="contactPage">
-      <div className="contactBody">
-        <form onSubmit={handleSubmit}>
+      {/* <div className="contactBody"> */}
+        {/* <form onSubmit={handleSubmit}>
           <h1 className="pageTitle">Send me a Message</h1>
 
           <div className="contactBodyMain">
@@ -86,8 +86,8 @@ const Contact = props => {
           <button type="submit" className="contactButton">
             SEND
           </button>
-        </form>
-      </div>
+        </form> */}
+      {/* </div> */}
       <div className="contactInfo">
         <h1 className="pageTitle">Contact Info</h1>
         <div className="cIdiv">

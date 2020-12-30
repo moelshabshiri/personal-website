@@ -7,6 +7,14 @@ const Experience = props => {
   const experience = [
     {
       id: "ex1",
+      year: "2020",
+      job: "Full Stack Developer-Part-Time",
+      title: "Z-Connect ",
+      description: "Developed the website of the company https://zconnectegypt.web.app, Built the frontend using React, Bootstrap, HTML, and CSS, Built the backend using NodeJS and ExpressJS, Utilized MongoDB for the database",
+      imageURL: "experience/Z Connects.png"
+    },
+    {
+      id: "ex5",
       year: "2019",
       job: "Employee",
       title: "Saudi Aramco School",

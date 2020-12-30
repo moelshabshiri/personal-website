@@ -1,8 +1,8 @@
 {
-  "homepage": "https://https://moelshabshiri.github.io/personal-website/",
-  "name": "my-portfolio",
+  "homepage": "",
+  "name": "moelsayed",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",

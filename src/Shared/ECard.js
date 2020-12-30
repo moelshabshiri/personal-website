@@ -12,7 +12,7 @@ const ExperienceCard = props => {
           alt="Cover Photo"
         />
       </div>
-      <div className="edetails" id="edetails">
+      <div className="edetails" id="edetails"> 
         <div className="etitleMain">
           <div className="etitle">
             <h1>{props.title}</h1>
