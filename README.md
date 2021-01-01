@@ -1,4 +1,4 @@
-This is the source code for my personal website, www.moelsayed.com
+This is the source code for my personal website, www.moelsayed.com.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
